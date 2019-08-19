@@ -1,0 +1,39 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+.row {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.row > div:not(.flex) {
+  background: #000;
+}
+.flex {
+  flex: 1;
+}
+
+.header h1 {
+    color: white;
+    font-size: 1em;
+}
+
+.footer {
+  color: white;
+}
+
+.resource .title {
+  margin-bottom: 0;
+}
+.resource .tags {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: gray;
+}
+
+.table-container table {
+  margin-left: 25px;
+  margin-right: 25px;
+}

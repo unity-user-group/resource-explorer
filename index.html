@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Unity user group resources" />
+    <title>Unity User Group Resources</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/purecss@1.0.1/build/pure-min.css"
+      integrity="sha384-"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/clusterize.js/0.18.0/clusterize.css"
+      integrity="sha256-dcJvQZDbm+YriXhKxI2hO+D2WGU/cu2YQeSVU6WbY5U="
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/clusterize.js/0.18.0/clusterize.min.js"
+      integrity="sha256-j2fSUXSx7aab6LM9Rhktwi08KATeQeYqfrLrUS3c56Y="
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/3.13.1/js-yaml.min.js"
+      integrity="sha256-ry6nlLQ1JmRl5RUPQ4eSuaSp/rGNPvl144WHHs7BiNE="
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body id="body">
+    <div class="row">
+      <div id="header" class="header">
+        <h1>Unity User Group : Resource Index</h1>
+        <input type="text" id="search" placeholder="filter ..."/>
+      </div>
+      <div class="flex table-container">
+        <div class="clusterize">
+          <div id="scrollArea" class="clusterize-scroll">
+            <table>
+              <tbody id="contentArea" class="clusterize-content">
+                <tr class="clusterize-no-data">
+                  <td>Loading data…</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div id="footer" class="footer">
+        footer content
+      </div>
+    </div>
+
+    <!-- <script src="js/ui.js"></script> -->
+    <script src="js/resource-loader.js"></script>
+  </body>
+</html>
